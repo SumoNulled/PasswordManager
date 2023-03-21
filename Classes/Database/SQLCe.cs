@@ -40,25 +40,25 @@ namespace PasswordManager.Classes.Database
         private static Dictionary<string, string> procedures =
             new Dictionary<string, string>
             {
-                {                  Queries.Accounts_Count()[0]        , Queries.Accounts_Count()[1]                    },
-                {                  Queries.Accounts_Delete()[0]       , Queries.Accounts_Delete()[1]                   },
-                {                 Queries.Accounts_Insert()[0]        , Queries.Accounts_Insert()[1]                   },
-                {                 Queries.Accounts_Increment()[0]     , Queries.Accounts_Increment()[1]                },
-                {                    Queries.Accounts_Load()[0]       , Queries.Accounts_Load()[1]                     },
-                {Queries.Accounts_LoadDataIntoDataGridView()[0]       , Queries.Accounts_LoadDataIntoDataGridView()[1] },
+                {                  Queries.Accounts_Count()[0]        , Queries.Accounts_Count()[1]                           },
+                {                  Queries.Accounts_Delete()[0]       , Queries.Accounts_Delete()[1]                          },
+                {                 Queries.Accounts_Insert()[0]        , Queries.Accounts_Insert()[1]                          },
+                {                 Queries.Accounts_Increment()[0]     , Queries.Accounts_Increment()[1]                       },
+                {                    Queries.Accounts_Load()[0]       , Queries.Accounts_Load()[1]                            },
+                {Queries.Accounts_LoadDataIntoDataGridView()[0]       , Queries.Accounts_LoadDataIntoDataGridView()[1]        },
                 {Queries.Accounts_LoadDataIntoDataGridView_Search()[0], Queries.Accounts_LoadDataIntoDataGridView_Search()[1] },
-                {                  Queries.Accounts_Reset()[0]        , Queries.Accounts_Reset()[1]                    },
-                {           Queries.Accounts_Table_Create()[0]        , Queries.Accounts_Table_Create()[1]             },
-                {                 Queries.Accounts_Update()[0]        , Queries.Accounts_Update()[1]                   },
-                {       Queries.Generated_Passwords_Count()[0]        , Queries.Generated_Passwords_Count()[1]         },
-                {      Queries.Generated_Passwords_Insert()[0]        , Queries.Generated_Passwords_Insert()[1]        },
-                {       Queries.Generated_Passwords_Reset()[0]        , Queries.Generated_Passwords_Reset()[1]         },
-                {Queries.Generated_Passwords_Table_Create()[0]        , Queries.Generated_Passwords_Table_Create()[1]  },
-                {                  Queries.Services_Count()[0]        , Queries.Services_Count()[1]                    },
-                {                    Queries.Users_Insert()[0]        , Queries.Users_Insert()[1]                      },
-                {                      Queries.Users_Load()[0]        , Queries.Users_Load()[1]                        },
-                {                      Queries.Users_Reset()[0]        , Queries.Users_Reset()[1]                      },
-                {              Queries.Users_Table_Create()[0]        , Queries.Users_Table_Create()[1]                }
+                {                  Queries.Accounts_Reset()[0]        , Queries.Accounts_Reset()[1]                           },
+                {           Queries.Accounts_Table_Create()[0]        , Queries.Accounts_Table_Create()[1]                    },
+                {                 Queries.Accounts_Update()[0]        , Queries.Accounts_Update()[1]                          },
+                {       Queries.Generated_Passwords_Count()[0]        , Queries.Generated_Passwords_Count()[1]                },
+                {      Queries.Generated_Passwords_Insert()[0]        , Queries.Generated_Passwords_Insert()[1]               },
+                {       Queries.Generated_Passwords_Reset()[0]        , Queries.Generated_Passwords_Reset()[1]                },
+                {Queries.Generated_Passwords_Table_Create()[0]        , Queries.Generated_Passwords_Table_Create()[1]         },
+                {                  Queries.Services_Count()[0]        , Queries.Services_Count()[1]                           },
+                {                    Queries.Users_Insert()[0]        , Queries.Users_Insert()[1]                             },
+                {                      Queries.Users_Load()[0]        , Queries.Users_Load()[1]                               },
+                {                      Queries.Users_Reset()[0]        , Queries.Users_Reset()[1]                             },
+                {              Queries.Users_Table_Create()[0]        , Queries.Users_Table_Create()[1]                       }
             };
     }
 }
