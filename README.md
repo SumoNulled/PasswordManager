@@ -10,7 +10,7 @@
 
 ## Getting Started
 #### Pre-requisites:
-* Microsfot SQL Server Compact 4.0 SP1 (https://www.microsoft.com/en-us/download/details.aspx?id=30709)
+* Microsoft SQL Server Compact 4.0 SP1 (https://www.microsoft.com/en-us/download/details.aspx?id=30709)
 * If downloading the program as a .zip, you must extract all files first and open/build the .csproj file.
 
 ----
