@@ -57,7 +57,7 @@ namespace PasswordManager.Classes.Database
                 {                  Queries.Services_Count()[0]        , Queries.Services_Count()[1]                           },
                 {                    Queries.Users_Insert()[0]        , Queries.Users_Insert()[1]                             },
                 {                      Queries.Users_Load()[0]        , Queries.Users_Load()[1]                               },
-                {                      Queries.Users_Reset()[0]        , Queries.Users_Reset()[1]                             },
+                {                      Queries.Users_Reset()[0]       , Queries.Users_Reset()[1]                              },
                 {              Queries.Users_Table_Create()[0]        , Queries.Users_Table_Create()[1]                       }
             };
     }
